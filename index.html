@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projet html</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Barre de navigation -->
      <nav>
         <ul>
+            <strong>
             <li><a href="#accueil">Accueil</a></li>
             <li><a href="#apropos">A propos</a></li>
             <li><a href="#travail">Travail</a></li>
             <li><a href="#Cv">CV</a></li>
             <li><a href="#contact">Contact</a></li>
+            </strong>
         </ul>
      </nav>
      <header>
         <!-- Section a propos -->
          <section id="A propos">
-            <h2>Bienvenue à L'univers Suuda</h2>
+            <h2 style="color: black; text-align: center;">Bienvenue à L'univers Suuda</h2>
             <form>
                 <label for="slogan">Proposez un slogan ou une idée&nbsp;:</label><br>
                 <input type="text" id="slogan" name="slogan" placeholder="Votre slogan ou idée"><br><br>
@@ -32,7 +38,9 @@
          </section>
          <!-- Section travail -->
           <section id="travail">
-                        <h2>Demande de service</h2>
+                        <h2 style="color: black;">Demande de service</h2>
+                        <img src="images/img1.jpg" alt="photo" width="200" height="200">
+                        <p>Je lance mon commerce de cosmétiques en ligne avec foi et passion.</p>
                         <form>
                             <label for="nom">Nom :</label><br>
                             <input type="text" id="nom" name="nom" placeholder="Votre nom"><br><br>
@@ -53,21 +61,24 @@
             <!-- Section CV -->
                     <section id="Cv">
                         <h2>Formulaire CV</h2>
-                        <form>
+                        <img src="images/img2.jpg" alt="photo" width="200" height="200">
+                        <p>Passionné(e) par les produits cosmétiques, vous êtes motivé(e) à rejoindre une équipe dynamique pour apprendre, évoluer et contribuer activement au succès de votre marque.</p>
+                        <form class="Formulaire">
                             <label for="formation">Formation :</label><br>
-                            <input type="text" id="formation" name="formation" placeholder="Votre formation"><br><br>
+                            <input type="text" id="formation" name="formation" placeholder="Votre formation" class="Katy"><br><br>
                             <label for="experience">Expérience :</label><br>
-                            <input type="text" id="experience" name="experience" placeholder="Votre expérience"><br><br>
+                            <input type="text" id="experience" name="experience" placeholder="Votre expérience" class="Katy"><br><br>
                             <label for="competences">Compétences :</label><br>
-                            <input type="text" id="competences" name="competences" placeholder="Vos compétences"><br><br>
+                            <input type="text" id="competences" name="competences" placeholder="Vos compétences" class="Katy"><br><br>
                             <label for="langues">Langues :</label><br>
-                            <input type="text" id="langues" name="langues" placeholder="Vos langues"><br><br>
-                            <input type="submit" value="Envoyer">
+                            <input type="text" id="langues" name="langues" placeholder="Vos langues" class="Katy"><br><br>
+                            <input type="submit" value="Envoyer" class="Katy">
                         </form>
                     </section>
             <!-- Section contact -->
                     <section id="contact">
                         <h2>Contactez-nous</h2>
+                        <p class="description">Pour en savoir plus sur nos services, n'hésitez pas à nous contacter.</p>
                         <form>
                             <label for="nom">Nom :</label><br>
                             <input type="text" id="nom" name="nom" placeholder="Votre nom"><br><br>
@@ -80,10 +91,11 @@
                         <section>
                             <!-- Pied de page -->
                              <footer>
-                                <p>&copy;2025 Portflio. Tous droits réservé</p>
+                                <p>&copy;William 2025 Development. Tous droits réservé</p>
                              </footer>
                         </section>
      </header>
+     
     
 </body>
 </html>
